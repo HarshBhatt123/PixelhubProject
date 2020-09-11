@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "936445859755",
+    "firebase_url": "https://pixelhubproject.firebaseio.com",
+    "project_id": "pixelhubproject",
+    "storage_bucket": "pixelhubproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936445859755:android:111d1ffa6d0f098465a4ee",
+        "android_client_info": {
+          "package_name": "com.example.pixelhubproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936445859755-pcj0gi9rjhurc7e1vl5kakl3oo9c3129.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpgDmvgJXgdpIw7vGIiBdZsn_VLGmW7s8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936445859755-pcj0gi9rjhurc7e1vl5kakl3oo9c3129.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
