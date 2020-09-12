@@ -106,11 +106,13 @@ public class HomeFragment extends Fragment  {
                                 String description = resultsObject.getString("alt_description");
 
                                 JSONObject linkObject = resultsObject.getJSONObject("urls");
+                                JSONObject downloadlinkObject = resultsObject.getJSONObject("links");
 
                                 String ImgLink = linkObject.getString("full");
+                                String DownloadLink = downloadlinkObject.getString("download");
 
 
-                               mList.add(new Item( ImgLink,description));
+                               mList.add(new Item( ImgLink,description,DownloadLink));
 
                               mExampleAdapter = new adapter(context, mList);
                                mRecyclerView.setAdapter(mExampleAdapter);
@@ -161,11 +163,13 @@ public class HomeFragment extends Fragment  {
                                 String description = resultsObject.getString("alt_description");
 
                                 JSONObject linkObject = resultsObject.getJSONObject("urls");
+                                JSONObject downloadlinkObject = resultsObject.getJSONObject("links");
 
                                 String ImgLink = linkObject.getString("small");
+                                String DownloadLink = downloadlinkObject.getString("download");
 
 
-                                mList.add(new Item( ImgLink,description));
+                                mList.add(new Item( ImgLink,description,DownloadLink));
 
                                 mExampleAdapter = new adapter(context, mList);
                                 mRecyclerView.setAdapter(mExampleAdapter);

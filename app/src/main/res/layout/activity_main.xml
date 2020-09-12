@@ -34,6 +34,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:headerLayout="@layout/nav_header"
+        android:backgroundTint="@color/colorAccent"
         app:menu="@menu/drawer_menu"
         />
 

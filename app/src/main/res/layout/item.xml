@@ -29,5 +29,15 @@
             android:textColor="@android:color/black"
             android:textSize="20sp" />
 
+       <!--
+        <Button
+            android:id="@+id/BtnDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download"
+            android:layout_gravity="center_horizontal"/>
+            -->
+
+
     </LinearLayout>
 </androidx.cardview.widget.CardView>
